@@ -1,0 +1,15 @@
+A **Internet das Coisas (IoT)** refere-se à conexão de dispositivos físicos à internet, permitindo que eles coletem, troquem e processem dados automaticamente. Esses dispositivos podem incluir sensores, eletrodomésticos, veículos, equipamentos industriais e até objetos do dia a dia. A IoT possibilita automação, monitoramento em tempo real e maior eficiência em diversas áreas, como saúde, agricultura, cidades inteligentes e indústria.
+
+Para que essa comunicação aconteça, a IoT utiliza o **modelo TCP/IP**, que é a base da comunicação na internet. O modelo TCP/IP é dividido em quatro camadas principais:
+
+1. **Camada de Acesso à Rede (Interface de Rede)**: responsável pela transmissão física dos dados entre dispositivos, incluindo tecnologias como Wi-Fi, Ethernet e redes móveis.
+
+2. **Camada de Internet**: encarregada do endereçamento e roteamento dos dados entre redes diferentes. O principal protocolo dessa camada é o IP (Internet Protocol), que garante que os dados cheguem ao destino correto.
+
+3. **Camada de Transporte**: garante a entrega correta dos dados, podendo ser confiável (com o TCP – Transmission Control Protocol) ou mais rápido, porém sem garantia de entrega (UDP – User Datagram Protocol).
+
+4. **Camada de Aplicação**: onde estão os serviços e aplicações que utilizam a rede, como HTTP, MQTT e CoAP, muito usados em soluções de IoT.
+
+Na IoT, o modelo TCP/IP é fundamental porque permite que dispositivos com diferentes capacidades e funções consigam se comunicar de forma padronizada. Por exemplo, um sensor pode enviar dados pela rede usando protocolos leves como MQTT, que trafegam sobre TCP/IP, garantindo que a informação chegue a servidores ou aplicativos para análise.
+
+Em resumo, a IoT depende do modelo TCP/IP para viabilizar a comunicação entre dispositivos conectados, tornando possível a troca de dados de forma eficiente, segura e escalável.

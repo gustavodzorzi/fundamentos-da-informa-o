@@ -1,5 +1,91 @@
 # Notas de aula da disciplina
 
+# Governança de TI, Ética e Privacidade de Dados
+
+## 1. O que é Governança de TI (COBIT e ITIL)?
+
+A Governança de TI garante que a tecnologia apoie os objetivos da empresa com segurança e eficiência.
+
+* **COBIT:** framework voltado para governança, controle e gestão de riscos.
+* **ITIL:** conjunto de boas práticas para gerenciamento dos serviços de TI.
+
+---
+
+## 2. Princípios da LGPD para Desenvolvedores
+
+Os principais princípios são:
+
+* Finalidade (usar dados para um objetivo específico);
+* Necessidade (coletar apenas o necessário);
+* Segurança (proteger os dados);
+* Transparência (informar como os dados serão usados);
+* Prevenção (evitar incidentes).
+
+---
+
+## 3. O que é Privacidade por Design?
+
+É desenvolver sistemas com a proteção de dados desde o início do projeto, utilizando práticas como criptografia, controle de acesso e coleta mínima de informações.
+
+---
+
+## 4. O que são Dados Sensíveis?
+
+São dados que exigem maior proteção, como:
+
+* Dados de saúde;
+* Biometria;
+* Religião;
+* Opinião política;
+* Origem racial ou étnica.
+
+---
+
+# Caso MedAgenda
+
+### 1. Identificação
+
+**Dados expostos:**
+
+* Nome;
+* CPF;
+* Histórico clínico;
+* Diagnósticos.
+
+**Princípios violados:**
+
+* Segurança;
+* Prevenção;
+* Necessidade;
+* Privacidade por Design.
+
+---
+
+### 2. Mitigação Tecnológica
+
+O problema poderia ser evitado com:
+
+* Uso de ambientes separados (Docker);
+* Banco exclusivo para testes;
+* Anonimização ou mascaramento dos dados;
+* Criptografia das informações.
+
+---
+
+### 3. Governança
+
+A empresa deveria implementar:
+
+* Controle de acesso por função (cada usuário acessa apenas o necessário);
+* Autenticação em dois fatores;
+* Registro de acessos (logs);
+* Proibição de usar dados reais em ambientes de teste.
+
+## Conclusão
+
+A LGPD exige que empresas protejam os dados pessoais. Com boas práticas de governança, ambientes separados, controle de acesso e anonimização dos dados, seria possível evitar um incidente como o da MedAgenda.
+
+
 ## Aula 14
 
 - Virtualização de Máquinas
